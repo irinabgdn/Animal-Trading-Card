@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo|Muli');
+body {
+	font-family: 'Muli', sans-serif;
+	font-size: 12px;
+	line-height: 120%;
+}
+h3 {
+	font-family: 'Baloo', cursive;
+	font-size: 32px;
+	text-align: center;
+}
+img {
+	width:300px;
+}
+#cardbox {
+	box-sizing: content-box;
+ 	border: 1px solid grey;
+ 	box-shadow: 5px 5px 3px lightgrey;
+  	padding: 10px;
+		padding-top: 0px;
+  	width: 300px;
+  	background-color: #ffffff;
+}
+#factsbox {
+	box-sizing: border-box;
+	margin-top: 5px;
+	border-radius: 10px;
+	border: 2px solid lightgrey;
+	border-style: groove;
+	padding-left: 10px;
+	padding-right: 10px;
+  background-color: #ffffff;
+}
+li span {
+ 	font-weight: bold;
+}
+.italic {
+  	font-style: italic;
+}
+ul {
+	list-style: none;
+	padding: 0;
+}
